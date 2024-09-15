@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  max-width: 120rem;
+  max-width: 1200px;
   margin: 0 auto;
   /* @include respond(tab-land-1280) {
     max-width: 95%;
