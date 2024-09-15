@@ -1,0 +1,32 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  /* @include respond(tab-land-1280) {
+    max-width: 95%;
+  }
+  @include respond(tab-land) {
+    max-width: 70.8rem;
+  }
+  @include respond(phone) {
+    max-width: 88%;
+  }
+  @include respond(miniphone) {
+    max-width: 86%;
+  } */
+}
