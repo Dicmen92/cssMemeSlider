@@ -32,5 +32,24 @@ body {
 }
 
 body {
-  background-image: url('img/1a875bb48432d4bf366907324d0e5644.jpg');
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  max-width: 1000px;
+  margin-top: 10%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.slides {
+  background-size: cover;
 }
