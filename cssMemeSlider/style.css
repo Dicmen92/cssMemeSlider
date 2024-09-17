@@ -16,7 +16,8 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
+  margin: 10%;
   /* @include respond(tab-land-1280) {
     max-width: 95%;
   }
@@ -28,7 +29,11 @@ body {
   }
   @include respond(miniphone) {
     max-width: 86%;
-  } */
+  } */  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 body {
@@ -37,19 +42,31 @@ body {
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
+
 }
 
 .slider {
-  max-width: 1000px;
-  margin-top: 10%;
+  max-width: 90%;
+  /* margin-top: 10%; */
   height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  overflow: hidden;  
+  border: 1px solid red;
 }
 
 .slides {
-  background-size: cover;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.slides img{
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 100%;
+  height: 100%;
 }
